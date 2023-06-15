@@ -18,7 +18,7 @@ export default function App() {
         <Stack.Screen
           name= "TelaQuest"
           component={TelaQuest}
-          options={{ title: 'Perguntinas'}}
+          options={{ title: 'Perguntinhas'}}
         />
         <Stack.Screen
           name= "TelaResult"

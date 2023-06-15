@@ -1,2 +1,0 @@
-# QuizMobileProject
-Projeto QUIZ
