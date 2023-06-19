@@ -11,8 +11,8 @@ const questions = [
         pergunta: "Qual é a civilização mais antiga do mundo?",
         respostas : [
             {resp :"Jiahu", status: false},
-            {resp :"Mesopotâmia", status: true},
-            {resp :"Aborígenes", status: false},
+            {resp :"Aborígenes", status: true},
+            {resp :"Mesopotâmia", status: false},
         ]
     },
     {

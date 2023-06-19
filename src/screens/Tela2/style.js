@@ -6,7 +6,7 @@ const generateRandomColor = () => {
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1, // Certifique-se de que o container ocupe todo o espaço da tela
+    flex: 1,
   },
   backgroundImage: {
     flex: 1,
@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   contentContainer: {
-    flex: 1, // Certifique-se de que o conteúdo também ocupe todo o espaço da tela
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -28,26 +28,17 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     marginTop: 30,
-    color: '#FFFFFF',
+    color:'#CDE0C9',
   },
   description: {
-        fontSize: 20,
+    alignItems: 'center',
+    fontSize: 20,
     marginBottom: 20,
     marginLeft: 10,
     marginRight: 10,
     color: '#FFFFFF',
   },
-  button: {
-    backgroundColor: '#26eaed',
-    padding: 10,
-    borderRadius: 5,
-  },
-  buttonText: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#FFFFFF',
-  },
   text: {
-    fontFamily: 'Poppins', 
+    fontFamily: 'Poppins',
   },
 });

@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
     padding: 20,
     paddingLeft: 100,
     paddingRight: 100,
-    borderRadius:30,
+    borderRadius: 30,
     alignSelf: 'center',
     marginTop: 85,
     marginBottom: 45,
@@ -51,6 +51,6 @@ export const styles = StyleSheet.create({
     color: '#2C6975',
   },
   text: {
-    fontFamily: 'Poppins', 
+    fontFamily: 'Poppins',
   },
 });

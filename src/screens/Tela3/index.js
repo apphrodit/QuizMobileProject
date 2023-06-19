@@ -5,6 +5,7 @@ import { styles } from './style';
 const TelaResult = ({ navigation, route }) => {
   const { score, totalQuestions } = route.params;
   const errors = totalQuestions - score;
+  const status = score < 5 ? "Reprovado" : "Aprovado";
 
   const handleRestartPress = () => {
     navigation.popToTop(); 
@@ -23,6 +24,7 @@ const TelaResult = ({ navigation, route }) => {
           <Text style={styles.description}>Perguntas: {totalQuestions}</Text>
           <Text style={styles.description}>Pontuação: {score}</Text>
           <Text style={styles.description}>Número de erros: {errors}</Text>
+          <Text style={styles.description}>Status: {status}</Text>
           <TouchableOpacity style={styles.button} onPress={handleRestartPress}>
             <Text style={styles.buttonText}>Reiniciar</Text>
           </TouchableOpacity>

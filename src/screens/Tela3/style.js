@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#FFFFFF',
+    color:'#CDE0C9',
   },
   description: {
         fontSize: 16,
@@ -37,14 +37,18 @@ export const styles = StyleSheet.create({
     color: '#FFFFFF',
   },
   button: {
-    backgroundColor: '#26eaed',
-    padding: 10,
-    borderRadius: 5,
-    marginBottom: 30
+    backgroundColor: '#CDE0C9',
+    padding: 20,
+    paddingLeft: 100,
+    paddingRight: 100,
+    borderRadius:30,
+    alignSelf: 'center',
+    marginTop: 85,
+    marginBottom: 45,
   },
   buttonText: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
-    color: '#FFFFFF',
+    color: '#2C6975',
   },
 });

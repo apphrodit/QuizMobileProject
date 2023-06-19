@@ -14,17 +14,17 @@ export default function App() {
         <Stack.Screen
           name="TelaPrincipal"
           component={TelaPrincipal}
-          options={{ title: 'History.io' }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="TelaQuest"
           component={TelaQuest}
-          options={{ title: 'Perguntinhas' }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="TelaResult"
           component={TelaResult}
-          options={{ title: 'RESULTADOS' }}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
