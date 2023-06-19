@@ -16,12 +16,12 @@ const TelaPrincipal = ({ navigation }) => {
       >
         <View style={styles.overlay} />
         <View style={styles.contentContainer}>
-          <Text style={styles.title}>Bem-vindo ao History.io</Text>
-          <Text style={styles.description}>
+          <Text style={[styles.title, styles.text]}>Bem-vindo ao History.io</Text>
+          <Text style={[styles.description, styles.text]}>
             Este é um pequeno QUIZ de História. Veja o quanto você consegue acertar!
           </Text>
           <TouchableOpacity style={styles.button} onPress={handleComecarPress}>
-            <Text style={styles.buttonText}>Começar</Text>
+            <Text style={[styles.buttonText, styles.text]}>Começar</Text>
           </TouchableOpacity>
         </View>
       </ImageBackground>

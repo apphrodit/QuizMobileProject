@@ -24,13 +24,14 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
+    fontSize: 35,
     fontWeight: 'bold',
     marginBottom: 20,
+    marginTop: 30,
     color: '#FFFFFF',
   },
   description: {
-        fontSize: 16,
+        fontSize: 20,
     marginBottom: 20,
     marginLeft: 10,
     marginRight: 10,
@@ -45,5 +46,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#FFFFFF',
+  },
+  text: {
+    fontFamily: 'Poppins', 
   },
 });

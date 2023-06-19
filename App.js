@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TelaPrincipal from './src/screens/Tela1/index';
 import TelaQuest from './src/screens/Tela2/index';
 import TelaResult from './src/screens/Tela3/index';
+import { StyleSheet } from 'react-native';
 
 const Stack = createNativeStackNavigator();
 
@@ -11,21 +12,29 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name= "TelaPrincipal"
+          name="TelaPrincipal"
           component={TelaPrincipal}
-          options={{ title: 'History.io'}}
+          options={{ title: 'History.io' }}
         />
         <Stack.Screen
-          name= "TelaQuest"
+          name="TelaQuest"
           component={TelaQuest}
-          options={{ title: 'Perguntinhas'}}
+          options={{ title: 'Perguntinhas' }}
         />
         <Stack.Screen
-          name= "TelaResult"
+          name="TelaResult"
           component={TelaResult}
-          options={{ title: 'RESULTADOS'}}
+          options={{ title: 'RESULTADOS' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
   )
 }
+const styles = StyleSheet.create({
+  all: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

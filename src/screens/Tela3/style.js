@@ -40,6 +40,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#26eaed',
     padding: 10,
     borderRadius: 5,
+    marginBottom: 30
   },
   buttonText: {
     fontSize: 18,
